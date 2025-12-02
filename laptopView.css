@@ -1,0 +1,174 @@
+
+.innerNavLinkContainer {
+    width: 95%;
+    height: 50px;
+    opacity: 1;
+    background-color: inherit;
+    position: static;
+    top: 0px;
+    right: 0px;
+    visibility: visible;
+    transition: 0s;
+    line-height: 50px;
+        
+}
+
+
+.innerNavLinkContainer ul {
+    flex-direction: row;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.innerNavLinkContainer ul li {
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    font-weight: normal;
+   
+}
+
+.innerNavLinkContainer ul li a {
+    color: #e0c007;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+
+.innerNavLinkContainer ul {
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+#navBarButton {
+    display: none;
+}
+
+
+nav img {
+    display: none;
+    
+}
+
+.bannerContainer {
+    height: 350px;
+    
+}
+
+.innerBannerContainer {
+    width: 100%;
+    padding: 0px 35px;
+}
+
+.logoAndButtonContainer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.buttonBox {
+    width: 22%;
+}
+
+
+
+.foodAndWelcomeAddressContainer {
+    width: 100%;
+    flex-direction: row;
+    margin-top: 0px;
+    
+}
+
+.welcomeAddressContainer {
+    width: 50%;
+}
+
+.welcomeAddressContainer h1 {
+    font-size: 54px;
+    text-align: left;
+    
+}
+
+.welcomeAddressContainer p {
+    text-align: left;
+    margin-left: 0px;
+}
+
+#slogan {
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.locationAndContactContainer {
+    width: 80%;
+    padding-left: 7px;
+    
+}
+
+.locationAndContactContainer .fa-location-dot {
+
+    margin-right: 10px;
+    
+}
+
+.foodContainer {
+    width: 50%;
+}
+
+.innerFoodAndDrinkDisplayContainer {
+    width: 89%;
+
+}
+
+#foodMenuHeading {
+    margin-bottom: 70px;   
+    
+}
+
+.foodDrinkHolder {
+    margin-bottom: 30px;
+   
+}
+
+.locationAndAddressBox {
+    justify-content: flex-start;
+}
+
+.locationAndAddressBox, .fa-location-dot {
+    margin-right: 15px;
+}
+
+.calendarAndEventBox {
+    justify-content: flex-start;
+    
+}
+
+.contactUsOverallInnerContainer {
+    margin-top: 50px
+}
+
+
+.contactUsOverallInnerContainer h1 {
+    margin-bottom: 10px
+}
+
+.contactUsOverallInnerContainer p {
+    margin-bottom: 10px;
+
+}
+
+.fa-envelope, .fa-user {
+    left: 2%;
+
+}
+
+.fa-phone {
+    right: 45%;
+   
+}

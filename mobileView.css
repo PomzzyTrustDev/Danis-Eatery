@@ -1,0 +1,586 @@
+
+nav {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    
+   
+    
+}
+
+nav img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 7%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 3px solid #e0c007;
+}
+
+#navBarButton {
+    display: block;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    font-size: 28px;
+    color: #e0c007
+}
+
+
+nav .fa-times {
+    display: none;
+    font-size: 28px;
+    color: #e0c007;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+}
+
+.innerNavLinkContainer {
+    width: 100%;
+    height: 100vh;
+    opacity: .9;
+    background-color: rgba(255, 222, 100);
+    position: absolute;
+    top: 50px;
+    right: 100%;
+    visibility: hidden;
+    transition: .7s;
+        
+}
+
+.showinnerNavLinkContainer {
+    visibility: visible;
+    right: 0;   
+        
+}
+
+.innerNavLinkContainer ul {
+    flex-direction: column;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.innerNavLinkContainer ul li {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+   
+}
+
+.innerNavLinkContainer ul li a {
+    color: #791b1b;
+    font-size: 28px;
+
+}
+
+.innerNavLinkContainer ul li a:hover {
+    color: rgba(255, 222, 100);
+   
+}
+
+.logoAndButtonContainer {
+    display: none;
+    
+}
+
+.innerBannerContainer {
+    display: none;
+    
+}
+
+.foodAndWelcomeAddressContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 60px;
+   
+}
+
+.welcomeAddressContainer {
+    width: 100%;
+}
+
+.welcomeAddressContainer h1 {
+    font-size: 50px;
+    text-align: center;
+    text-transform:capitalize;
+    line-height: 50px;
+    margin-top: -260px;
+}
+
+.welcomeAddressContainer p {
+    text-align: center;
+}
+
+.locationAndContactContainer {
+    width: 100%;
+    padding: 0px 15px;
+    
+}
+
+.locationAndContactContainer .fa-location-dot {
+    margin-right: 5px;
+}
+
+.foodContainer {
+    width: 100%;
+    
+}
+
+.innerFoodAndDrinkDisplayContainer {
+    width: 100%;
+    padding: 0px 20px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+      
+}
+
+#foodMenuHeading {
+    margin-bottom: 15px;  
+    
+    
+}
+
+#foodMenuHeading h1 {
+    text-align: center;
+    font-size: 28px;
+    
+}
+
+.foodDrinkHolder {
+    width: 160px;
+    height: 160px;
+   
+}
+
+.boxOverlay{
+    width: 160px;
+    height: 160px;  
+    text-align: center;     
+}
+
+.boxOverlay p {
+    font-size: 10px;
+
+}
+
+.boxOverlay a {
+    padding: 5px 10px;
+    font-size: 14px;    
+}
+
+.imageBox {
+    height: 110px;
+}
+
+.textBox {
+    height: 36px;
+    font-size: 16px;
+   
+}
+
+.innerCustomerReviewOverallContainer {
+    width: 100%;
+    margin-top: 80px;
+    padding: 0px 30px;
+    margin-bottom: 10px;
+}
+
+.customerReviewHeading h1 {
+    font-size: 28px;
+}
+
+.customerReviewHeading h1:after {
+    top: 130%;
+
+}
+
+.customerReviewDivision {
+    flex-direction: column;
+}
+
+.customerReviewBox {
+    width: 100%;
+    margin-bottom: 30px;
+   
+}
+
+.innerAboutUsOverallContainer {
+    width: 100%;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    flex-direction: column; 
+ 
+ }
+
+ .aboutUsheadingPhotoAndDescriptionContainer {
+    width: 100%;
+    text-align: center;
+   
+}
+
+.aboutUsPhotoAndDescriptionBox {
+    flex-direction: column;
+    
+}
+
+.aboutUsHeading {
+    margin-bottom: 30px;
+}
+
+.aboutUsHeading h1 {
+    font-size: 28px;
+}
+
+.photoAndLocationContainer {
+    width:100%;
+}
+
+.descriptionContainer {
+    width: 100%;
+}
+
+.descriptionContainer p {
+   font-size: 16px;
+   text-align: justify;
+}
+.locationAndAddressBox p, .fa-location-dot {
+    color: #e0c007;
+}
+
+.locationAndAddressBox p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#secondParagraphComment {
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.phoneContainer {
+    margin-bottom: 30px;
+}
+
+.phoneContainer p{
+    color: #e0c007;
+    margin-top: -5px;
+}
+
+.featuredLocalBeerAndWineContainer {
+    width: 100%;
+    
+}
+
+.featuredLocalBeerHeading {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.upcomingCalendarOfEventsInnerContainer {
+    width: 100%;
+    margin: 70px 0px 0px 0px;
+    padding: 20px;
+}
+
+.upcomingEventsHeading h1 {
+    font-size: 28px;
+}
+
+.upcomingEventsHeading h1:after {
+    top: 120%;
+}
+
+.eventsContainerTrippleColumn {
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+.eventsContainer {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.calendarAndEventBox {
+    width: 100%;
+    justify-content:flex-start;
+}
+
+.fa-calendar {
+    margin-right: 10px;
+}
+
+
+.contactUsOverallInnerContainer {
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+
+}
+
+.contactUsOverallInnerContainer h1 {
+    margin-top: 30px;
+    
+}
+
+.contactUsOverallInnerContainer p {
+    margin-bottom: 20px;
+
+}
+
+.contactFormContainer {
+    width: 100%;
+    
+}
+
+.firstAndLastNameBox, .emailAndPhoneNoBox {
+    flex-direction: column; 
+   
+}
+
+.emailAndPhoneNoBox {
+    margin-top: -20px;
+}
+
+.contactUsOverallInnerContainer input {
+    width: 100%;
+    margin-top: 15px;
+    height: 60px;
+    
+}
+
+.fa-envelope, .fa-user {
+    top: 25%;
+    left: 7%;
+    
+}
+
+.fa-phone {
+    position: absolute;
+    top: 75%;
+    right: 88%;
+    transform: translate(-50%);
+    font-size: 18px;
+    color: #791b1b;
+}
+
+.contactUsOverallInnerContainer textarea {
+    margin-top: -5px;
+}
+
+.contactUsOverallInnerContainer button {
+
+    margin: 15px 0px;
+    
+}
+
+.innerFooterWrapper {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0px 20px;
+}
+
+.footerContentsContainer {
+    width: 100%;
+
+}
+
+.socialIconsBox {
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
+
+
+
+.footerNavLinks ul {  
+    flex-wrap: wrap;
+    
+}
+
+.footerNavLinks ul li {
+    width: 95px;
+    font-size: 16px;
+    margin-bottom: 15px;   
+    
+}
+
+@media (min-width: 344px){
+
+    .foodDrinkHolder {
+        width: 145px;
+        height: 145px;
+       
+    }
+
+    #foodMenuHeading h1:after {
+        top: 130%;    
+    
+    }
+
+}
+
+
+@media (min-width: 360px){
+
+    .foodDrinkHolder {
+        width: 155px;
+        height: 155px;
+       
+    }
+
+
+    #foodMenuHeading h1 {
+
+        margin-bottom: 40px;
+        
+    }
+
+    #foodMenuHeading h1:after {
+        top: 140%;    
+    
+    }
+
+}
+
+
+@media (min-width: 390px){
+    .foodAndWelcomeAddressContainer {
+        width: 94%;
+       
+       
+    }
+
+    .welcomeAddressContainer h1 {
+        margin-top: -250px;
+    }
+}
+
+
+@media screen and (min-width: 412px){
+    .foodAndWelcomeAddressContainer {
+        width: 93%;
+       
+    }
+
+    .foodDrinkHolder {
+        width: 175px;
+        height: 175px;
+       
+    }
+
+    #foodMenuHeading h1 {
+
+        margin-bottom: 10px;
+        
+    }
+
+    .locationAndAddressBox {
+        justify-content: flex-start;
+        
+    }
+
+    .locationAndAddressBox, .fa-location-dot {
+        margin-right: 10px;
+        color: #fff;
+    }
+}
+
+@media (min-width: 430px){
+
+    .foodDrinkHolder {
+
+        width: 185px;
+        height: 185px;
+        margin-bottom: 22px;
+       
+    }
+
+    #foodMenuHeading h1 {
+
+        margin-bottom: 30px;
+        
+    }
+
+}
+
+@media screen and (min-width: 540px){
+    .welcomeAddressContainer h1 {
+        margin-top: -200px;
+    }
+
+    .foodDrinkHolder {
+
+        width: 240px;
+        height: 240px;
+        margin-bottom: 22px;
+       
+    }
+
+    .boxOverlay{
+        width: 236px;
+        height: 236px;
+        padding: 10px;
+       
+        
+    }
+
+    .boxOverlay p {
+       font-size: 16px;
+
+    }
+
+    .imageBox {
+        height: 190px;
+    }
+
+
+    .customerReviewHeading h1:after { 
+        top: 170%;
+        
+    
+    }
+
+    .locationAndAddressBox {
+        justify-content: flex-start;
+
+    }  
+
+    .locationAndAddressBox, .fa-location-dot {
+        margin-right: 10px;
+    }
+
+    .upcomingEventsHeading h1:after {       
+        top: 150%;
+       
+    }
+
+
+    .fa-envelope, .fa-user {
+        
+        left: 3%; 
+    }
+    
+    .fa-phone {
+       left: 5%;
+        
+    }
+
+    .footerNavLinks {
+        text-align: center;
+    }
+
+
+    .footerNavLinks ul {
+        justify-content: center;
+           
+    }
+
+}
+
